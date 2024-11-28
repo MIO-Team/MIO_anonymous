@@ -1,0 +1,6 @@
+_target_: models.seed_llama_tokenizer.SeedLlamaTokenizer.from_pretrained
+pretrained_model_name_or_path: seed-tokenizer-2
+fp16: True
+load_diffusion: False
+encoder_path: seed-tokenizer-2/seed_quantizer.pt
+diffusion_path: stable-diffusion-2-1-unclip
